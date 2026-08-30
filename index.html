@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Favorite Hobby - Baking</title>
     <link rel="stylesheet" href="assests/css/styling.css">
+    <script src="assests/js/script.js" defer></script>
 </head>
 
 <body>
@@ -32,6 +33,20 @@
                     Baking allows me to express myself creatively without restrictions or judgment.
                 </p>
 
+                <button id="factButton">Show Baking Fact</button>
+
+                <p id="factText">
+                    Click the button to see a baking fact!
+                </p>
+
+                <label for="colorInput">Type your favorite baking color:</label>
+
+                <input type="text" id="colorInput" placeholder="Enter a color">
+
+                <p id="colorMessage">
+                    Type a color to see it applied here!
+                </p>
+
                 <img src="https://media.istockphoto.com/id/1131330399/photo/confectioner-woman-making-delicious-cream-for-cupcakes.jpg?s=612x612&w=0&k=20&c=vUVlu8HuyZtKQiP6hFKO-CFUeO2a47ALrh9j-ya-bzk="
                     alt="Baker using a handmixer to mix batter" width="400">
             </article>
@@ -55,6 +70,17 @@
                 <li>An adequate oven</li>
                 <li>Patience to read instructions thoroughly</li>
             </ol>
+        </section>
+
+        <section id="RecipeIdeas">
+            <h2>Recipe Ideas</h2>
+            <input type="text" id="recipeInput" placeholder="Enter a recipe idea">
+            <button id="recipeButton">
+                Add Recipe Idea
+            </button>
+
+            <ul id="recipeList">
+            </ul>
         </section>
 
     </main>
