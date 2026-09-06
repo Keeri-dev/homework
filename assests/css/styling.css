@@ -70,6 +70,26 @@ p {
     margin-top: 10px;
 }
 
+#formError {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#successMessage {
+    color: green;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#apiResult {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
 /* Navigation Styling */
 nav ul {
     list-style-type: none;

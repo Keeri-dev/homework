@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Favorite Hobby - Baking</title>
-    <link rel="stylesheet" href="assests/css/styling.css">
-    <script src="assests/js/script.js" defer></script>
+    <link rel="stylesheet" href="assets/css/styling.css">
+    <script src="assets/js/script.js" defer></script>
 </head>
 
 <body>
@@ -81,6 +81,40 @@
 
             <ul id="recipeList">
             </ul>
+        </section>
+
+        <section id="BakingContact">
+            <h2>Baking Newsletter Signup</h2>
+
+            <form id="signupForm">
+
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="favoriteRecipe">Favorite Recipe:</label>
+                <input type="text" id="favoriteRecipe" name="favoriteRecipe" required>
+
+                <label for="experience">Baking Experience:</label>
+                <select id="experience" name="experience" required>
+                    <option value="">Select an option</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+
+                <button type="submit">Sign Up</button>
+
+                <p id="formError"></p>
+                <p id="successMessage"></p>
+
+            </form>
+
+            <button id="apiButton">Get a Random Baking Tip</button>
+            <p id="apiTip">Click the button to get a baking tip!</p>
+
         </section>
 
     </main>
